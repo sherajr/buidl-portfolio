@@ -94,7 +94,7 @@ const Page: React.FC = () => {
             <h1 className="font-bold mt-4 text-2xl text-white">
               {profile?.name ?? ""}
             </h1>
-            <h3 className="text-base text-white">@{profile?.name ?? ""}</h3>
+            <h3 className="text-base text-white">{profile?.role ?? ""}</h3>
             <p className="text-white text-center text-base my-8">
               {profile?.bio ?? ""}
             </p>
