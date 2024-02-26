@@ -81,14 +81,14 @@ const Page: React.FC = () => {
       </div>
       <Wrapper>
         <FadeIn>
-          <div className="flex items-center flex-col mx-auto w-full mt-16 md:mt-32 justify-center px-2 md:px-8">
-            <div className="h-40 w-40 md:h-72 md:w-72">
+          <div className="flex items-center flex-col w-full mt-16 md:mt-32 justify-center px-2 md:px-8">
+            <div>
               <img
-                className="rounded-full h-40 w-40 md:h-72  md:w-72 border border-[12px] border-[rgba(255,255,255,0.04)]"
+                className="h-40 w-40 md:h-72  md:w-72"
                 alt="Picture of the author"
                 src={profile?.imageUrl ?? ""}
-                width={288}
-                height={288}
+                width={100}
+                height={100}
               />
             </div>
             <h1 className="font-bold mt-4 text-2xl text-white">

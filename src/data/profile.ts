@@ -2,7 +2,7 @@ export const profile = {
   name: "Sheraj",
   role: "Crypto Cowboy",
   bio: "Looking for work in the blockchain industry.",
-  imageUrl: "/home/peaceantz/buidl-portfolio/public/CryptoCowboy3.png",
+  imageUrl: "https://github.com/sherajr/buidl-portfolio/blob/main/public/CryptoCowboy3.png?raw=true",
   address: "0xf44725568d06038a2fc2d4278F19fe8951Fca93B",
   links: [
     {
